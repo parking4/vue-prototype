@@ -15,8 +15,8 @@
             </div>
           </div>
           <div class="notification__content">
-            <span class="notification__category">Analytics</span>
-            <p>Your website’s active users count increased by <span class="text-success text-semibold">28%</span> in the last week. Great job!</p>
+            <span class="notification__category">Parking</span>
+            <p>Your favourite parking spot is available! 123 York st.</p>
           </div>
         </d-dropdown-item>
         <d-dropdown-item href="#">
@@ -26,8 +26,8 @@
             </div>
           </div>
           <div class="notification__content">
-            <span class="notification__category">Sales</span>
-            <p>Last week your store’s sales count decreased by <span class="text-danger text-semibold">5.52%</span>. It could have been worse!</p>
+            <span class="notification__category">Save</span>
+            <p>Use the 'AJCR34' coupon code on your next purchase to save 10%!</p>
           </div>
         </d-dropdown-item>
         <d-dropdown-item class="notification__all text-center">View all Notifications</d-dropdown-item>
@@ -35,12 +35,11 @@
     </li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle text-nowrap px-3" v-d-toggle.user-actions>
-        <img class="user-avatar rounded-circle mr-2" src="@/assets/images/avatars/0.jpg" alt="User Avatar"> <span class="d-none d-md-inline-block">Sierra Brooks</span>
+        <img class="user-avatar rounded-circle mr-2" src="@/assets/images/avatars/francis.jpg" alt="User Avatar"> <span class="d-none d-md-inline-block">Francis Hackenberger</span>
       </a>
       <d-collapse id="user-actions" class="dropdown-menu dropdown-menu-small">
-        <d-dropdown-item><i class="material-icons">&#xE7FD;</i> Profile</d-dropdown-item>
+        <d-dropdown-item to="/profile"><i class="material-icons">&#xE7FD;</i> Profile</d-dropdown-item>
         <d-dropdown-item><i class="material-icons">&#xE8B8;</i> Edit Profile</d-dropdown-item>
-        <d-dropdown-item><i class="material-icons">&#xE2C7;</i> Files</d-dropdown-item>
         <d-dropdown-item><i class="material-icons">&#xE896;</i> Transactions</d-dropdown-item>
         <d-dropdown-divider />
         <d-dropdown-item href="#" class="text-danger">

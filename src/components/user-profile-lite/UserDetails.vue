@@ -22,17 +22,6 @@
 
     <d-list-group flush>
 
-      <!-- User Performance Report -->
-      <d-list-group-item class="px-4">
-        <div class="progress-wrapper">
-          <strong class="text-muted d-block mb-2">{{ userDetails.performanceReportTitle }}</strong>
-          <d-progress class="progress-sm">
-            <span class="progress-value">{{ userDetails.performanceReportValue }}%</span>
-            <d-progress-bar :max="100" :value="userDetails.performanceReportValue" />
-          </d-progress>
-        </div>
-      </d-list-group-item>
-
       <!-- User Meta -->
       <d-list-group-item>
         <strong class="text-muted d-block mb-2">{{ userDetails.metaTitle }}</strong>
@@ -45,9 +34,9 @@
 
 <script>
 const defaultUserDetails = {
-  name: 'Sierra Brooks',
-  avatar: require('@/assets/images/avatars/0.jpg'),
-  jobTitle: 'Project Manager',
+  name: 'Francis Hackenberger',
+  avatar: require('@/assets/images/avatars/francis.jpg'),
+  jobTitle: 'Software Engineer',
   performanceReportTitle: 'Workload',
   performanceReportValue: 74,
   metaTitle: 'Description',
